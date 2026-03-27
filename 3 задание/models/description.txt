@@ -1,0 +1,3 @@
+Метод: token-level LogisticRegression с FeatureHasher.
+Признаки: token lower, shape, is_title/is_upper/is_digit, len, pref/suf 1..3, контекст +/-2.
+IOB метки; после предсказания преобразование в spans [start,end) с типом.
